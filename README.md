@@ -9,6 +9,20 @@ flowchart TD
   D ----> E[Enjoy your weekend!];
 ```
 
+```mermaid
+flowchart TD
+  8 --> 3; 
+  8 --> 10; 
+  3 --> 1; 
+  3 --> 6; 
+  6 --> 4; 
+  6 --> 7;
+  10 --> 11;
+  10 --> 14;
+  14 --> 13;
+  14 --> 19;
+```
+
 ## Resource 
 
 * [Github Blog - Include diagrams in your Markdown files with Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)

@@ -2,7 +2,7 @@
 
 ## Example 1
 
-Using a `flowchart` to draw a dependency diagram. Mermaid supports top, down `TD` or left to right `LR`. 
+Using a `flowchart` to draw a dependency diagram. Mermaid supports top, down `TD` or left to right `LR` configurations. 
 
 Top -> Down
 ```mermaid

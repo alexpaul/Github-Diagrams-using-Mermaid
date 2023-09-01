@@ -1,6 +1,24 @@
 ## Include diagrams in your Markdown files with Mermaid
 
 ## Example 1
+
+Using a `flowchart` to draw a dependency diagram. Mermaid supports top, down `TD` or left to right `LR`. 
+
+Top -> Down
+```mermaid
+flowchart TD 
+  A[System S] ---> B[Framework F] ---> C[Database D];
+```
+
+Left -> Right
+```mermaid
+flowchart LR 
+  A[System S] ---> B[Framework F] ---> C[Database D];
+```
+
+***
+
+## Example 2
 ```mermaid
 flowchart TD 
   A[Deploy to production] ---> B{Is it Friday?};
@@ -10,7 +28,7 @@ flowchart TD
   D ----> E[Enjoy your weekend!];
 ```
 
-## Example 2
+## Example 3
 ```mermaid
 flowchart TD
   8 --> 3; 
@@ -27,7 +45,7 @@ flowchart TD
 
 ***
 
-## Example 3
+## Example 4
 
 ```mermaid
 journey
